@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Average Sans', sans-serif;
+    color: aliceblue;
+    background-image: url("./pic.jpg");
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+h1{
+    font-size: 4rem;
+    margin-top: 15rem;
+
+
+}
+.countdown_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 15px;
+    margin-bottom: -10rem;
+    
+    
+}
+.number{
+    font-size: 4rem ;
+    line-height: 1;
+    margin: 0 1rem;
+}
+.name{
+    font-size: 2rem;
+}
+.count_days{
+    text-align: center;
+}
+.count_hours{
+    text-align: center;
+}
+.count_minutes{
+    text-align: center;
+}
+.count_seconds{
+    text-align: center;
+}
+
